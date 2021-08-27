@@ -31,7 +31,7 @@ ammoTypes: {
 		smokeEffect: "shootSmallSmoke"
 		ammoMultiplier: 2
 	}
-Graphite: {
+graphite: {
 		speed: 7
 		damage: 26
 		width: 7
