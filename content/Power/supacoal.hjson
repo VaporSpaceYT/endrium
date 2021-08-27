@@ -1,0 +1,22 @@
+type: "SingleTypeGenerator"
+name: "advanced combustion generator"
+description: "generates great amounts of power with coal"
+itemCapacity: 20
+size: 2
+hasLiquids: false
+powerProduction: 3
+itemDuration: 80
+generateEffect: "smeltsmoke"
+consumes: {
+	item: coal
+	
+}
+requirements: [
+	lead/45
+	graphite/30
+	copper/45
+	
+] 
+
+category: "power"
+research: "combustion-generator"
