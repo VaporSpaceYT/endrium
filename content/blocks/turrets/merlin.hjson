@@ -1,0 +1,40 @@
+type: "ItemTurret"
+name: "merlin"
+description: "high damage and range but low fire rate"
+targetAir: true
+targetGround: true
+size: 1
+inaccuracy: 1
+reloadTime: 45
+shootCone: 9
+rotateSpeed: 8
+shots: 1
+range: 160
+burstSpacing: 0
+ammoTypes: {
+	lead: {
+		speed: 6
+		damage: 17
+		width: 5
+		height: 15
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 1
+	}
+	copper: {
+		speed: 5
+		damage: 15
+		
+		width: 5
+		height: 15
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 2
+	}
+}
+requirements: [
+	lead/15
+	copper/35
+]
+category: "turret"
+research: "duo"
