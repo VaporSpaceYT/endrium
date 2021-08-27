@@ -31,6 +31,15 @@ ammoTypes: {
 		smokeEffect: "shootSmallSmoke"
 		ammoMultiplier: 2
 	}
+Graphite: {
+		speed: 7
+		damage: 26
+		width: 7
+		height: 20
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		ammoMultiplier: 1
+	}
 }
 requirements: [
 	lead/15
