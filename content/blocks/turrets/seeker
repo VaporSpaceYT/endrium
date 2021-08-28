@@ -1,0 +1,35 @@
+{
+  type: PowerTurret
+  name: "Seeker"
+  description: "fires beams of energy dealing high damage"
+  health: 250
+  size: 2
+  recoilAmount: 0
+  reloadTime: 50.0
+  range: 200
+  chargeMaxDelay: 30
+  shootType: {
+    type: LaserBulletType
+    hitEffect: hitLancer
+    despawnEffect: none
+    shootSound: laser
+    hitSize: 14
+    lifetime: 30
+    drawSize: 500
+    collidesAir: false
+    damage: 30
+  }
+  targetAir: false
+  powerUse: 4.0
+  inaccuracy: 0.0
+  rotateSpeed: 5
+  chargeEffects: 50.0
+  requirements: [
+   copper/80
+   lead/60
+   graphite/60
+  ]
+  coolantMultiplier: 1.0
+  category: turret
+  research: arc
+}
