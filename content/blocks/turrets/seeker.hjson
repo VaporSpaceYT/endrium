@@ -12,7 +12,7 @@
     type: LaserBulletType
     hitEffect: hitLancer
     despawnEffect: none
-    shootSound: laser
+    shootSound: Lancer 
     hitSize: 14
     lifetime: 30
     drawSize: 500
