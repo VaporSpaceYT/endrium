@@ -8,11 +8,11 @@
   reloadTime: 50.0
   range: 200
   chargeMaxDelay: 30
+shootSound: lasa
   shootType: {
     type: LaserBulletType
     hitEffect: hitLancer
     despawnEffect: none
-    shootSound: lasa 
     hitSize: 14
     lifetime: 30
     drawSize: 500
