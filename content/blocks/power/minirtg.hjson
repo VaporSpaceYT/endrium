@@ -1,4 +1,3 @@
-lines (19 sloc)  366 Bytes
 type: "SingleTypeGenerator"
 name: "Mini RTG"
 description: "uses the helium and electrons created from decay of thorium to generate power"
