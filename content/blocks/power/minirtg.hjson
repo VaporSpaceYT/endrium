@@ -1,0 +1,24 @@
+lines (19 sloc)  366 Bytes
+type: "SingleTypeGenerator"
+name: "Mini RTG"
+description: "uses the helium and electrons created from decay of thorium to generate power"
+itemCapacity: 20
+size: 2
+hasLiquids: false
+powerProduction: 3.5
+itemDuration: 150
+generateEffect: "smeltsmoke"
+consumes: {
+	item: thorium
+	
+}
+requirements: [
+	lead/150
+	graphite/60
+	copper/120
+	thorium/50
+] 
+
+category: "power"
+research: "thorium-reactor"
+© 2021 GitHub, Inc.
