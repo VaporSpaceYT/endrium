@@ -2,9 +2,9 @@
   type: PowerTurret
   name: "Seeker"
   description: "fires beams of energy dealing high damage"
-  health: 250
+  health: 400
   size: 2
-  recoilAmount: 0
+  recoilAmount: 5
   reloadTime: 50.0
   range: 200
   chargeMaxDelay: 30
@@ -17,7 +17,7 @@ shootSound: lasa
     lifetime: 30
     drawSize: 500
     collidesAir: false
-    damage: 30
+    damage: 35
   }
   targetAir: false
   powerUse: 4.0
