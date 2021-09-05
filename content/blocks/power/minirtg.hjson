@@ -5,7 +5,7 @@ itemCapacity: 20
 size: 2
 hasLiquids: false
 powerProduction: 3.5
-itemDuration: 150
+itemDuration: 700
 generateEffect: "smeltsmoke"
 consumes: {
 	item: thorium
